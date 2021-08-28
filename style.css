@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Image/6534cea4ab8e884ec50677531a63e9b5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
+
+.bg-custom {
+    border: 1px solid #FFFFFF73;
+    color: #FFF;
+    background-image: url('Image/6534cea4ab8e884ec50677531a63e9b5.jpg');
+    background-position: bottom;
+}
+
+.mb-02 {
+    margin-bottom: 4px;
+}
+
+.container::after {
+    content: 'Weather App By Akash Khan 2021';
+    color: #FFF;
+    text-align: center;
+    display: block;
+    font-size: small;
+}
+
+button.btn.text-light {
+    background: black;
+    transition: 1.0s;
+}
+
+button.btn.text-light:hover {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.bg-custom {
+    background-image: url('Image/app-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pera {
+    font-size: 60px;
+}
+
+
+h1 {
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
